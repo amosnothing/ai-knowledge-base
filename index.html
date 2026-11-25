@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="整理人工智能基础原理、前沿进展、工程实践与安全合规知识。">
+  <title>AI 知识库</title>
+  <style>
+    :root { color-scheme: light; --ink: #172033; --muted: #64748b; --line: #e2e8f0; --accent: #635bff; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #f8fafc; color: var(--ink); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+    header { padding: 72px 24px 56px; color: white; background: linear-gradient(135deg, #171a36, #5147c8 72%, #8378ff); }
+    .hero, main, footer { width: min(100% - 40px, 1040px); margin: 0 auto; }
+    .eyebrow { color: #d7d4ff; font-size: .82rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
+    h1 { margin: 12px 0; font-size: clamp(2.4rem, 7vw, 4.5rem); line-height: 1.08; }
+    header p { max-width: 650px; margin: 16px 0 0; color: #e5e7ff; font-size: 1.12rem; }
+    main { padding: 40px 0 64px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 18px; }
+    .card { padding: 24px; border: 1px solid var(--line); border-radius: 16px; background: white; box-shadow: 0 8px 24px #17203308; }
+    .card h2 { margin: 0 0 8px; font-size: 1.15rem; }
+    .card p { margin: 0 0 16px; color: var(--muted); font-size: .94rem; }
+    ul { margin: 0; padding: 0; list-style: none; }
+    li + li { margin-top: 10px; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .article { display: inline-block; line-height: 1.45; }
+    footer { padding: 0 0 32px; color: var(--muted); font-size: .88rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="hero">
+      <div class="eyebrow">AI Knowledge Base</div>
+      <h1>AI 知识库</h1>
+      <p>持续整理人工智能的基础原理、前沿能力、应用实践与安全合规知识，让学习和探索有迹可循。</p>
+    </div>
+  </header>
+  <main>
+    <div class="grid">
+      <section class="card">
+        <h2>01 · 核心原理与基础概念</h2>
+        <p>理解大语言模型的工作方式、上下文限制与幻觉问题。</p>
+        <ul>
+          <li><a class="article" href="https://github.com/amosnothing/ai-knowledge-base/blob/main/01-%E6%A0%B8%E5%BF%83%E5%8E%9F%E7%90%86%E4%B8%8E%E5%9F%BA%E7%A1%80%E6%A6%82%E5%BF%B5/01-%E5%A4%A7%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B%E5%9F%BA%E7%A1%80%EF%BC%9AAI%E6%98%AF%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3%E4%B8%8E%E7%94%9F%E6%88%90%E5%86%85%E5%AE%B9%E7%9A%84.md">大语言模型基础</a></li>
+          <li><a class="article" href="https://github.com/amosnothing/ai-knowledge-base/blob/main/01-%E6%A0%B8%E5%BF%83%E5%8E%9F%E7%90%86%E4%B8%8E%E5%9F%BA%E7%A1%80%E6%A6%82%E5%BF%B5/02-%E4%B8%8A%E4%B8%8B%E6%96%87%E7%AA%97%E5%8F%A3%EF%BC%88Context%20Window%EF%BC%89%EF%BC%9AAI%E7%9A%84%E7%9F%AD%E6%9C%9F%E5%B7%A5%E4%BD%9C%E8%AE%B0%E5%BF%86%E8%BE%B9%E7%95%8C.md">上下文窗口（Context Window）</a></li>
+          <li><a class="article" href="https://github.com/amosnothing/ai-knowledge-base/blob/main/01-%E6%A0%B8%E5%BF%83%E5%8E%9F%E7%90%86%E4%B8%8E%E5%9F%BA%E7%A1%80%E6%A6%82%E5%BF%B5/03-%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%B9%BB%E8%A7%89%EF%BC%88Hallucination%EF%BC%89%EF%BC%9A%E6%88%90%E5%9B%A0%E5%88%86%E6%9E%90%E4%B8%8E%E5%BA%94%E5%AF%B9%E7%AD%96%E7%95%A5.md">大模型幻觉与应对策略</a></li>
+        </ul>
+      </section>
+      <section class="card">
+        <h2>02 · 前沿能力演进</h2>
+        <p>关注推理模型、多模态技术与 AI 智能体的发展。</p>
+        <ul>
+          <li><a class="article" href="https://github.com/amosnothing/ai-knowledge-base/blob/main/02-%E5%89%8D%E6%B2%BF%E8%83%BD%E5%8A%9B%E6%BC%94%E8%BF%9B%EF%BC%882026%E6%9C%80%E6%96%B0%E8%BF%9B%E5%B1%95%EF%BC%89/01-%E6%8E%A8%E7%90%86%E6%A8%A1%E5%9E%8B%EF%BC%88Reasoning%20Models%EF%BC%89%EF%BC%9A%E6%85%A2%E6%80%9D%E8%80%83%E4%B8%8E%E5%A4%8D%E6%9D%82%E9%80%BB%E8%BE%91%E6%8E%A8%E6%BC%94.md">推理模型（Reasoning Models）</a></li>
+          <li><a class="article" href="https://github.com/amosnothing/ai-knowledge-base/blob/main/02-%E5%89%8D%E6%B2%BF%E8%83%BD%E5%8A%9B%E6%BC%94%E8%BF%9B%EF%BC%882026%E6%9C%80%E6%96%B0%E8%BF%9B%E5%B1%95%EF%BC%89/02-%E5%8E%9F%E7%94%9F%E5%A4%9A%E6%A8%A1%E6%80%81%E6%8A%80%E6%9C%AF%EF%BC%9A%E8%B7%A8%E6%96%87%E6%9C%AC%E3%80%81%E5%9B%BE%E5%83%8F%E4%B8%8E%E9%9F%B3%E8%A7%86%E9%A2%91%E7%9A%84%E7%BB%9F%E4%B8%80%E7%90%86%E8%A7%A3.md">原生多模态技术</a></li>
+          <li><a class="article" href="https://github.com/amosnothing/ai-knowledge-base/blob/main/02-%E5%89%8D%E6%B2%BF%E8%83%BD%E5%8A%9B%E6%BC%94%E8%BF%9B%EF%BC%882026%E6%9C%80%E6%96%B0%E8%BF%9B%E5%B1%95%EF%BC%89/03-AI%E6%99%BA%E8%83%BD%E4%BD%93%EF%BC%88AI%20Agents%EF%BC%89%EF%BC%9A%E4%BB%8E%E5%AF%B9%E8%AF%9D%E4%BA%A4%E4%BA%92%E5%88%B0%E8%87%AA%E4%B8%BB%E4%BB%BB%E5%8A%A1%E6%89%A7%E8%A1%8C.md">AI 智能体（AI Agents）</a></li>
+        </ul>
+      </section>
+      <section class="card">
+        <h2>03 · 高效应用与工程实践</h2>
+        <p>将 AI 能力落地到提示词、知识库和自动化工作流。</p>
+        <ul>
+          <li><a class="article" href="https://github.com/amosnothing/ai-knowledge-base/blob/main/03-%E9%AB%98%E6%95%88%E5%BA%94%E7%94%A8%E4%B8%8E%E5%B7%A5%E7%A8%8B%E5%AE%9E%E8%B7%B5/01-%E6%8F%90%E7%A4%BA%E8%AF%8D%E5%B7%A5%E7%A8%8B%EF%BC%88Prompt%20Engineering%EF%BC%89%EF%BC%9A%E7%BB%93%E6%9E%84%E5%8C%96%E6%8C%87%E4%BB%A4%E8%AE%BE%E8%AE%A1%E6%96%B9%E6%B3%95.md">提示词工程</a></li>
+          <li><a class="article" href="https://github.com/amosnothing/ai-knowledge-base/blob/main/03-%E9%AB%98%E6%95%88%E5%BA%94%E7%94%A8%E4%B8%8E%E5%B7%A5%E7%A8%8B%E5%AE%9E%E8%B7%B5/02-%E6%A3%80%E7%B4%A2%E5%A2%9E%E5%BC%BA%E7%94%9F%E6%88%90%EF%BC%88RAG%EF%BC%89%EF%BC%9A%E6%9E%84%E5%BB%BA%E4%B8%AA%E4%BA%BA%E4%B8%8E%E4%BC%81%E4%B8%9A%E4%B8%93%E5%B1%9E%E7%9F%A5%E8%AF%86%E5%BA%93.md">检索增强生成（RAG）</a></li>
+          <li><a class="article" href="https://github.com/amosnothing/ai-knowledge-base/blob/main/03-%E9%AB%98%E6%95%88%E5%BA%94%E7%94%A8%E4%B8%8E%E5%B7%A5%E7%A8%8B%E5%AE%9E%E8%B7%B5/03-AI%E5%B7%A5%E4%BD%9C%E6%B5%81%E8%87%AA%E5%8A%A8%E5%8C%96%EF%BC%9A%E5%A4%9A%E5%B7%A5%E5%85%B7%E5%8D%8F%E5%90%8C%E4%B8%8E%E6%95%88%E7%8E%87%E6%8F%90%E5%8D%87%E5%AE%9E%E8%B7%B5.md">AI 工作流自动化</a></li>
+        </ul>
+      </section>
+      <section class="card">
+        <h2>04 · 生态格局与安全合规</h2>
+        <p>了解模型与工具生态，并以安全、负责任的方式使用 AI。</p>
+        <ul>
+          <li><a class="article" href="https://github.com/amosnothing/ai-knowledge-base/blob/main/04-%E7%94%9F%E6%80%81%E6%A0%BC%E5%B1%80%E4%B8%8E%E5%AE%89%E5%85%A8%E5%90%88%E8%A7%84/01-%E5%85%A8%E7%90%83%E4%B8%BB%E6%B5%81%E5%A4%A7%E6%A8%A1%E5%9E%8B%E4%B8%8EAI%E5%B7%A5%E5%85%B7%E7%94%9F%E6%80%81%E5%85%A8%E6%99%AF%EF%BC%882026%E7%89%88%EF%BC%89.md">全球主流大模型与 AI 工具生态</a></li>
+          <li><a class="article" href="https://github.com/amosnothing/ai-knowledge-base/blob/main/04-%E7%94%9F%E6%80%81%E6%A0%BC%E5%B1%80%E4%B8%8E%E5%AE%89%E5%85%A8%E5%90%88%E8%A7%84/02-AI%E6%95%B0%E6%8D%AE%E5%AE%89%E5%85%A8%E4%B8%8E%E9%9A%90%E7%A7%81%E4%BF%9D%E6%8A%A4%EF%BC%9A%E5%90%88%E8%A7%84%E4%BD%BF%E7%94%A8%E5%87%86%E5%88%99.md">AI 数据安全与隐私保护</a></li>
+        </ul>
+      </section>
+    </div>
+  </main>
+  <footer>内容持续更新中 · <a href="https://github.com/amosnothing/ai-knowledge-base">在 GitHub 上查看仓库</a></footer>
+</body>
+</html>
